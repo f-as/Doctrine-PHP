@@ -1,0 +1,17 @@
+{
+    "autoload": {
+        "psr-0": {
+            "Controllers": "./src/",
+            "Entities": "./src/",
+            "Repositories": "./src/",
+            "Validators": "./src/",
+            "Traits": "./src/"
+        }
+    },
+    "require": {
+        "php": ">=7.3",
+        "doctrine/orm": "2.6.3",
+        "gedmo/doctrine-extensions": "2.4.37",
+        "webmasters/doctrine-extensions": "6.0.0"
+    }
+}
